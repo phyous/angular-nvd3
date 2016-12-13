@@ -8,11 +8,11 @@
     var nv = window.nv;
 
     // Node.js or CommonJS
-    if (typeof(exports) !== 'undefined') {
+    //if (typeof(exports) !== 'undefined') {
         /* jshint -W020 */
-        nv = require('nvd3');
+    //    nv = require('nvd3');
         /* jshint +W020 */
-    }
+    //}
 
     angular.module('nvd3', [])
 
